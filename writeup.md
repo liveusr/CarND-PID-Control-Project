@@ -12,7 +12,7 @@ Proportional component produces the correction value directly proportional to CT
 
 | Kp = 0                                        | Kp = 1                                        | Kp = 0.1                                          |
 |:---------------------------------------------:|:---------------------------------------------:|:-------------------------------------------------:|
-| ![alt text](./writeup_data/Kp_0.jpg "Kp = 0") | ![alt text](./writeup_data/Kp_1.jpg "Kp = 1") | ![alt text](./writeup_data/Kp_0.1.jpg "Kp = 0.1") |
+| ![alt text](./writeup_data/Kp_0.gif "Kp = 0") | ![alt text](./writeup_data/Kp_1.gif "Kp = 1") | ![alt text](./writeup_data/Kp_0.1.gif "Kp = 0.1") |
 
 ### I - Integral
 
@@ -20,7 +20,7 @@ Integral component integrates past values of CTE over time and produces correcti
 
 | Ki = 0                                        | Ki = 0.008                                            | Ki = 0.002                                            |
 |:---------------------------------------------:|:-----------------------------------------------------:|:-----------------------------------------------------:|
-| ![alt text](./writeup_data/Ki_0.jpg "Ki = 0") | ![alt text](./writeup_data/Ki_0.008.jpg "Ki = 0.008") | ![alt text](./writeup_data/Ki_0.002.jpg "Ki = 0.002") |
+| ![alt text](./writeup_data/Ki_0.gif "Ki = 0") | ![alt text](./writeup_data/Ki_0.008.gif "Ki = 0.008") | ![alt text](./writeup_data/Ki_0.002.gif "Ki = 0.002") |
 
 ### D - Derivative
 
@@ -28,7 +28,7 @@ Derivative component produces the correction value proportional to rate of chang
 
 | Kd = 0                                        | Kd = 5                                        | Kd = 1                                        |
 |:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|
-| ![alt text](./writeup_data/Kd_0.jpg "Kd = 0") | ![alt text](./writeup_data/Kd_5.jpg "Kd = 5") | ![alt text](./writeup_data/Kd_1.jpg "Kd = 1") |
+| ![alt text](./writeup_data/Kd_0.gif "Kd = 0") | ![alt text](./writeup_data/Kd_5.gif "Kd = 5") | ![alt text](./writeup_data/Kd_1.gif "Kd = 1") |
 
 ## Choosing Hyperparameters (P, I, D coefficients)
 
